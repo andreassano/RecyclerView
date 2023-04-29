@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/images"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        />
+
+    <TextView
+        android:id="@+id/tvNim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tempat NIM"
+        android:textColor="@color/black"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_medium"
+        android:textAlignment="center"
+        android:layout_below="@id/images"
+        android:layout_marginTop="16dp"
+        />
+
+    <TextView
+        android:id="@+id/tvNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tempat Nama"
+        android:textColor="@color/black"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_medium"
+        android:textAlignment="center"
+        android:layout_below="@id/tvNim"
+        android:layout_marginTop="4dp"
+        />
+
+    <TextView
+        android:id="@+id/tvNotelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tempat No. Telepon"
+        android:textColor="@color/black"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_medium"
+        android:textAlignment="center"
+        android:layout_below="@id/tvNama"
+        android:layout_marginTop="4dp"
+        />
+
+</RelativeLayout>
